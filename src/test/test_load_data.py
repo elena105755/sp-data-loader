@@ -1,7 +1,8 @@
 import unittest
 
-from load_data import validate_row, validate_data_for_date
 import pytest
+
+from src.main.load_data import validate_row, validate_data_for_date
 
 
 class TestValidateRow(unittest.TestCase):
